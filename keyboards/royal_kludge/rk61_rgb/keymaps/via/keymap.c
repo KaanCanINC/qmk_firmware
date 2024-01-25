@@ -184,4 +184,5 @@ bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
         rgb_matrix_set_color(CAPS_LOCK_LED, 255, 130, 15);
     }
     return false;
+            return false;
 }
